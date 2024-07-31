@@ -1,0 +1,373 @@
+/* body{
+    background-color: red;
+}
+
+.good{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+} */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+    background-color: rgba(255, 242, 205, 0.582);
+}
+
+body,html{
+padding: 0px;
+margin: 0px;
+}
+
+.navs{
+    width: 100% !important;
+    /* background-color: blue !important; */
+     background-color: rgb(4, 4, 83) !important;
+    position: sticky !important;
+    color: white;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+nav ul li a{
+    color: white !important;
+}
+.logo{
+width: 55%;
+display: flex;
+align-items: center;
+/* justify-content: center; */
+}
+
+.navbar-toggler:focus{
+    outline: none ;
+    border: none ;
+    background: none;
+    box-shadow: 0px 0px 10px rgb(56, 55, 55) !important;
+    background-color: transparent !important;
+    
+  
+    
+}
+.navbar-collapse.show{
+    /* background-image: linear-gradient(blue, green,black,gray) !important; */
+    /* background-color: rgb(187, 173, 152) !important; */
+    transition: height 2s linear;
+   transition-delay: 3s;
+   
+}
+
+.get{
+background: none;
+border: none;
+outline: none;
+background-color: orangered;
+}
+.container1{
+padding:40px;
+display: flex;
+/* color: rgb(3, 3, 59); */
+color: white;
+background-image: url(./images/coding2\ image.avif);
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+height: 50vh;
+background-position: center;
+transition: 1.6s linear;
+margin-bottom: 20px;
+}
+.container1:hover{
+background-image: url(./images/codingimage2.avif);
+height: 50vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+opacity: 1;
+}
+.container2{
+font-size:70px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-right: 20px;
+}
+.become{
+margin-left: 100px; 
+}
+.engineer{
+margin-left: 200px;
+}
+.container3{
+text-align: justify;
+width: 40%;
+font-family: cursive;
+font-size:20px; 
+margin-top:100px;
+font-weight: 600;
+}
+
+
+.software{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(4, 4, 64);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pic{
+ /* width: 50%;  */
+ margin-right: 50px;
+}
+
+.eng{
+    color: white;
+    /* text-align: center; */
+    height: 50vh;
+    width: 50%;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.box{
+width: 100%;
+height: 40vh;
+/* border: 1px solid red; */
+padding-left: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+.box1{
+height: 40vh;
+width: 33%;
+/* border: 2px solid blue; */
+ background-color: rgb(4, 4, 64);
+box-shadow: 0px 0px 4px black;
+display: grid;
+align-items: center;
+/* margin-right: 10px; */
+/* color: white;  */
+/* color: rgb(3, 3, 59); */
+color: white;
+text-align:center;
+margin-bottom: 10px;
+/* transition: 1s linear; */
+
+}
+.box1:hover{
+    /* transform: scale(1.02, 1.02); */
+    box-shadow: 0px 0px 1rem black;
+}
+.box2, .box3, .box4{
+/* color: white; */
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+text-align: center;
+text-transform: capitalize;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 700;
+}
+.icon{
+    font-size: 50px;
+}
+
+.contact{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    /* background-color: rgb(39, 31, 31); */
+     background-color: rgb(4, 4, 64);
+     margin-bottom: 50px;
+}
+
+.about{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(81, 81, 243);
+    margin-bottom: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+
+}
+.space{
+    width: 10%;
+}
+.us{
+    width: 45%;
+
+}
+.aboutUs{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.description{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 40px;
+}
+.contactUs{
+    width: 45%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.media{
+    font-size: 15px;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-color: rgb(4, 4, 64);
+    color: white;
+    font-family: serif;
+}
+
+@media(max-width:863px){
+.nav{
+    width: 100%;
+}
+.box{
+    width: 100%;
+}
+.all{
+    /* transition-delay: 20s; */
+}
+}
+@media(max-width:847px){
+.container1{
+    display: block;
+}
+.container2{
+ font-size:60px;
+}
+.container3{
+    width: 100%;
+    margin-top: 20px;
+}
+.software{
+    width: 100%;
+    height: 90vh;
+    display: block;
+   padding: 10px;
+   
+}
+.eng{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.pic{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+}
+@media(max-width:668px){
+    .software, .container1{
+        height: 100%;
+    }
+    .img{
+        width: 80%;
+        /* height: 100%; */
+    }
+    .about{
+        display: block;
+        height: 100%;
+        width: 100%;
+         margin: 0;
+    }
+    .contactUs, .us{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:575px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.nav{
+padding-left: 20px;
+}
+.container1{
+    height: 100%;
+}
+.software{
+    height: 100%;
+}
+.box{
+display: block;
+width: 100%;
+padding: 0px;
+height: 100%;
+/* background-color: red; */
+}
+.box1{
+width: 100%;
+height: 50vh;
+}
+.contact{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+}
+}
+@media(max-width:500px){
+.container1{
+    margin: 0px;
+}
+.container2{
+ margin: 0px;
+}
+.engineer, .ware, .become{
+    margin: 0px;
+}
+}
+
+@media(max-width:529px){
+.foot{
+    text-align: center;
+}
+}
